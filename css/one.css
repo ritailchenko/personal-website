@@ -1,0 +1,299 @@
+html,
+body {
+      background-color: #fefeff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+@-webkit-keyframes Rainbow {
+  0% {
+    background-position: 94% 0%; }
+  50% {
+    background-position: 7% 100%; }
+  100% {
+    background-position: 94% 0%; } }
+}
+
+
+
+.navbar ul {
+    /*padding-top:2.7em;*/
+}
+
+#portfolioone {
+    padding-top: 17em;
+
+}
+
+#portfolioone h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vw;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+#portfolioone h2 {
+  font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    /*opacity: .7;*/
+    padding-top: 1em;
+    color: #B8E1FF;
+}
+
+.secondheader {
+  text-align: center;
+  margin-top: 10em;
+}
+
+.secondheader h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1vw;
+}
+
+.secondheader p {
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.images {
+  margin-top: 17em;
+}
+
+.images img {
+  width: 100%;
+}
+
+.images .effect-julia {
+    overflow: hidden;
+    width: 100%;
+}
+
+.effect-julia {
+    background: white;
+}
+
+
+ .images .effect-julia img {
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+        opacity: .1;
+}
+
+.effect-julia:hover img {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1,1.1,1);
+    transform: scale3d(1.1,1.1,1);
+}
+
+.arrows {
+  text-align: center;
+  margin-top: 13em;
+}
+
+.arrows a {
+  font-style: italic;
+  text-transform: capitalize;
+  color: black;
+  transition: .5s;
+  font-size: 1.1vw;
+}
+
+.arrows a:hover {
+  color: #00ffef;
+    transition: .5s;
+}
+
+.footer {
+    background-color: rgba(255, 0, 0, 0);
+     padding-top: 4.7em;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a {
+      color: black;
+}
+
+/* animation*/
+
+.js-wp-1 {
+    opacity: 0;
+}
+
+.js-wp-1.animated {
+    opacity: 1;
+}
+
+
+/* media queries */
+
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width : 75em) {
+
+#portfolioone h1 {
+    font-size: 7vw;
+    }
+
+    #portfolioone h2 {
+    font-size: 3.9vw;
+  }
+
+  .secondheader h3 {
+    font-size: 1.7vw;
+}
+
+.arrows a {
+    font-size: 1.5vw;
+}
+}
+
+@media only screen and (max-width : 62em) {
+
+  .container {
+    width: 100% !important;
+    padding-right: 0px!important;
+}
+
+.images {
+    margin-top: 10em;
+}
+
+.arrows a {
+    font-size: 1.1em;
+}
+}
+
+@media only screen and (max-width : 48em) {
+
+#portfolioone h1 {
+    font-size: 4.2em;
+}
+
+#portfolioone h2 {
+    font-size: 4.3vw;
+}
+
+.secondheader h3 {
+    font-size: 1.1em;
+}
+
+.images {
+    margin-top: 5em;
+  }
+
+  .arrows {
+    margin-top: 7em;
+}
+
+.footer {
+    padding-top: 3.7em;
+}
+}
+
+@media only screen and (max-width : 30em) {
+
+#portfolioone h1 {
+    font-size: 3.3em;
+}
+
+#portfolioone h2 {
+    font-size: 6vw;
+}
+
+.secondheader {
+    margin-top: 7em;
+}
+
+.images {
+    margin-top: 3.7em;
+}
+}
+
+@media only screen and (max-width : 20em) {
+
+.header .navbar-brand {
+    font-size: .9em;
+}
+
+#portfolioone h1 {
+    font-size: 2.3em;
+}
+
+#portfolioone {
+    padding-top: 13em;
+}
+
+.secondheader h3 {
+    font-size: .7em;
+}
+
+.secondheader p {
+    font-size: .7em;
+}
+
+.images {
+    margin-top: 2.7em;
+}
+
+.arrows a {
+    font-size: .9em;
+}
+
+.footer {
+    padding-top: 1.7em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
